@@ -10,27 +10,29 @@ local LocalPlayer = Players.LocalPlayer
 local camera = workspace.CurrentCamera
 
 -- Window Setup
+local DISCORD = "discord.gg/M4hMpQYjS"
+
 local Window = Rayfield:CreateWindow({
     Name = "99 Nights",
     LoadingTitle = "Mooxty Hub",
     LoadingSubtitle = "by efeyi_calcam",
     ConfigurationSaving = {
         Enabled = true,
-        FolderName = nil,
-        FileName = "99NightsSettings"
+        FolderName = 99nights,
+        FileName = "99NightsSettings",
     },
     Discord = {
-        Enabled = false,
+        Enabled = true,
         Invite = "M4hMpQYjS",
-        RememberJoins = true
-        },
+        RememberJoins = true,
+    },
     KeySystem = true,
     KeySettings = {
         Title = "Mooxty Hub",
         Subtitle = "by efeyi_calcam",
         Note = "Get your key from Discord.",
         FileName = "MooxtyHubKey",
-        SaveKey = false,
+        SaveKey = true,
         GrabKeyFromSite = false,
         Key = { "MooxtyOnTop" },
     },
