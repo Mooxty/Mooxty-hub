@@ -1,5 +1,14 @@
 --// 99 Nights in the Forest Script with Rayfield GUI //--
+if setclipboard then
+    setclipboard(DISCORD)
+end
 
+Rayfield:Notify({
+    Title = "Mooxty Hub",
+    Content = "Discord copied: " .. DISCORD,
+    Duration = 5,
+    Image = 4483362458,
+})
 -- Load Rayfield UI Library
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
@@ -35,8 +44,6 @@ local Window = Rayfield:CreateWindow({
         GrabKeyFromSite = false,
         Key = { "MooxtyOnTop" },
     },
-})
-
 })
 
 -- Variables
