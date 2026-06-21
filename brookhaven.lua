@@ -11,8 +11,6 @@ local LocalPlayer = Players.LocalPlayer
 local camera = workspace.CurrentCamera
 
 -- Window Setup
-local DISCORD = "discord.gg/M4hMpQYjS"
-
 local Window = Rayfield:CreateWindow({
     Name = "99 Nights",
     LoadingTitle = "Mooxty Hub",
