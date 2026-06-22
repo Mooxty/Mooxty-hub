@@ -12,7 +12,7 @@ local camera = workspace.CurrentCamera
 
 -- Window Setup
 local Window = Rayfield:CreateWindow({
-    Name = "99 Nights",
+    Name = "Mooxty Hub",
     LoadingTitle = "Mooxty Hub",
     LoadingSubtitle = "by efeyi_calcam",
     ConfigurationSaving = {
@@ -25,15 +25,7 @@ local Window = Rayfield:CreateWindow({
         Invite = "M4hMpQYjS",
         RememberJoins = true,
     },
-    KeySystem = true,
-    KeySettings = {
-        Title = "Mooxty Hub",
-        Subtitle = "by efeyi_calcam",
-        Note = "Get your key from Discord.",
-        FileName = "MooxtyHubKey",
-        SaveKey = true,
-        GrabKeyFromSite = false,
-        Key = { "MooxtyOnTop" },
+    KeySystem = false
     },
 })
 
